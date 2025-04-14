@@ -1,0 +1,58 @@
+# Build results
+bin/
+obj/
+out/
+publish/
+*.zip
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider / VS Code / VS
+.idea/
+.vscode/
+.vs/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Azure settings
+*.azure
+
+# dotenv, secrets
+.env
+*.secret.json
+secrets.json
+
+# NuGet packages
+*.nupkg
+packages/
+.nuget/
+
+# Terraform / Bicep cache (caso usar depois)
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# GitHub Actions cache
+.github/workflows/*.temp
+
+# Test results
+TestResults/
+*.coverage
+
+# Node (caso usar frontend)
+node_modules/
+npm-debug.log*
+
+# Backup
+*~
+*.bak
+*.tmp
