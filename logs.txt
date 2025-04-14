@@ -1,1 +1,188 @@
-testes
+╭─  omaestro174  ~/devOPs/azure cloud native WeatherApi   15:42:40
+╰─ ❯ dotnet run
+/home/omaestro174/devOPs/azure cloud native WeatherApi/WeatherApi.csproj : error MSB4025: Não foi possível carregar o arquivo de projeto. Root element is missing.
+
+Ocorreu uma falha no build. Corrija os erros de build e execute novamente.
+[exit=1]
+╭─  omaestro174  ~/devOPs/azure cloud native WeatherApi   15:42:45
+╰─ ❯ dotnet run
+You must install or update .NET to run this application.
+
+App: /home/omaestro174/devOPs/azure cloud native WeatherApi/bin/Debug/net8.0/WeatherApi
+Architecture: x64
+Framework: 'Microsoft.NETCore.App', version '8.0.0' (x64)
+.NET location: /usr/share/dotnet
+
+The following frameworks were found:
+  9.0.3 at [/usr/share/dotnet/shared/Microsoft.NETCore.App]
+
+Learn more:
+https://aka.ms/dotnet/app-launch-failed
+
+To install missing framework, download:
+https://aka.ms/dotnet-core-applaunch?framework=Microsoft.NETCore.App&framework_version=8.0.0&arch=x64&rid=arch-x64&os=biglinux
+[exit=150]
+╭─  omaestro174  ~/devOPs/azure cloud native WeatherApi   15:43:07
+╰─ ❯ dotnet run
+You must install or update .NET to run this application.
+
+App: /home/omaestro174/devOPs/azure cloud native WeatherApi/bin/Debug/net9.0/WeatherApi
+Architecture: x64
+Framework: 'Microsoft.AspNetCore.App', version '9.0.0' (x64)
+.NET location: /usr/share/dotnet
+
+No frameworks were found.
+
+Learn more:
+https://aka.ms/dotnet/app-launch-failed
+
+To install missing framework, download:
+https://aka.ms/dotnet-core-applaunch?framework=Microsoft.AspNetCore.App&framework_version=9.0.0&arch=x64&rid=arch-x64&os=biglinux
+[exit=150]
+╭─  omaestro174  ~/devOPs/azure cloud native WeatherApi   15:43:32
+╰─ ❯ dotnet run
+You must install or update .NET to run this application.
+
+App: /home/omaestro174/devOPs/azure cloud native WeatherApi/bin/Debug/net8.0/WeatherApi
+Architecture: x64
+Framework: 'Microsoft.NETCore.App', version '8.0.0' (x64)
+.NET location: /usr/share/dotnet
+
+The following frameworks were found:
+  9.0.3 at [/usr/share/dotnet/shared/Microsoft.NETCore.App]
+
+Learn more:
+https://aka.ms/dotnet/app-launch-failed
+
+To install missing framework, download:
+https://aka.ms/dotnet-core-applaunch?framework=Microsoft.NETCore.App&framework_version=8.0.0&arch=x64&rid=arch-x64&os=biglinux
+[exit=150]
+╭─  omaestro174  ~/devOPs/azure cloud native WeatherApi   15:43:53
+╰─ ❯ sudo pacman -S dotnet-sdk-8.0 aspnet-runtime-8.0
+[sudo] senha para omaestro174:          
+resolvendo dependências...
+procurando pacotes conflitantes...
+
+Pacotes (4) dotnet-runtime-8.0-8.0.14.sdk114-1  dotnet-targeting-pack-8.0-8.0.14.sdk114-1  aspnet-runtime-8.0-8.0.14.sdk114-1  dotnet-sdk-8.0-8.0.14.sdk114-1
+
+Tamanho total download:   121,86 MiB
+Tamanho total instalado:  434,26 MiB
+
+:: Continuar a instalação? [S/n] s
+:: Obtendo pacotes...
+ dotnet-targeting-pack-8.0-8.0.14.sdk114-1-x86_64                                                                                        6,4 MiB  6,34 MiB/s 00:01 [#####################################################################################################] 100%
+ aspnet-runtime-8.0-8.0.14.sdk114-1-x86_64                                                                                               7,8 MiB  5,61 MiB/s 00:01 [#####################################################################################################] 100%
+ dotnet-runtime-8.0-8.0.14.sdk114-1-x86_64                                                                                              22,5 MiB  14,1 MiB/s 00:02 [#####################################################################################################] 100%
+ dotnet-sdk-8.0-8.0.14.sdk114-1-x86_64                                                                                                  85,1 MiB  21,7 MiB/s 00:04 [#####################################################################################################] 100%
+ Total (4/4)                                                                                                                           121,9 MiB  30,4 MiB/s 00:04 [#####################################################################################################] 100%
+(4/4) verificando chaves no chaveiro                                                                                                                               [#####################################################################################################] 100%
+(4/4) verificando integridade do pacote                                                                                                                            [#####################################################################################################] 100%
+(4/4) carregando arquivos do pacote                                                                                                                                [#####################################################################################################] 100%
+(4/4) verificando conflitos de arquivos                                                                                                                            [#####################################################################################################] 100%
+(4/4) verificando espaço em disco disponível                                                                                                                       [#####################################################################################################] 100%
+:: Processando alterações do pacote...
+(1/4) instalando dotnet-runtime-8.0                                                                                                                                [#####################################################################################################] 100%
+Dependências opcionais para dotnet-runtime-8.0
+    lttng-ust2.12: CoreCLR tracing
+(2/4) instalando dotnet-targeting-pack-8.0                                                                                                                         [#####################################################################################################] 100%
+Dependências opcionais para dotnet-targeting-pack-8.0
+    bash-completion: Bash completion support [instalado]
+(3/4) instalando dotnet-sdk-8.0                                                                                                                                    [#####################################################################################################] 100%
+Dependências opcionais para dotnet-sdk-8.0
+    aspnet-targeting-pack: Build ASP.NET Core applications
+(4/4) instalando aspnet-runtime-8.0                                                                                                                                [#####################################################################################################] 100%
+Dependências opcionais para aspnet-runtime-8.0
+    bash-completion: Bash completion support [instalado]
+:: Executando hooks pós-transação...
+(1/2) Arming ConditionNeedsUpdate...
+(2/2) Removing unnecessary cached files
+╭─  omaestro174  ~/devOPs/azure cloud native WeatherApi   15:44:51
+╰─ ❯ dotnet run
+info: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://localhost:5000
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Production
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: /home/omaestro174/devOPs/azure cloud native WeatherApi
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:5000/weatherforecast - - -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'HTTP: GET /weatherforecast'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'HTTP: GET /weatherforecast'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:5000/weatherforecast - 200 - application/json;+charset=utf-8 78.1623ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:5000/favicon.ico - 404 0 - 1.0812ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[16]
+      Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/favicon.ico, Response status code: 404
+^Cinfo: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+╭─  omaestro174  ~/devOPs/azure cloud native WeatherApi   15:46:27
+╰─ ❯ az login
+A web browser has been opened at https://login.microsoftonline.com/organizations/oauth2/v2.0/authorize. Please continue the login in the web browser. If no web browser is available or if the web browser fails to open, use device code flow with `az login --use-device-code`.
+
+Retrieving tenants and subscriptions for the selection...
+
+[Tenant and subscription selection]
+
+No     Subscription name    Subscription ID                       Tenant
+-----  -------------------  ------------------------------------  -----------------
+[1] *  Azure Cloud Native   faf1c873-e32c-4e80-bc1d-fe05e0b99d01  Default Directory
+
+The default is marked with an *; the default tenant is 'Default Directory' and subscription is 'Azure Cloud Native' (faf1c873-e32c-4e80-bc1d-fe05e0b99d01).
+
+Select a subscription and tenant (Type a number or Enter for no changes): 1
+
+Tenant: Default Directory
+Subscription: Azure Cloud Native (faf1c873-e32c-4e80-bc1d-fe05e0b99d01)
+
+[Announcements]
+With the new Azure CLI login experience, you can select the subscription you want to use more easily. Learn more about it and its configuration at https://go.microsoft.com/fwlink/?linkid=2271236
+
+If you encounter any problem, please open an issue at https://aka.ms/azclibug
+
+[Warning] The login output has been updated. Please be aware that it no longer displays the full list of available subscriptions by default.
+
+╭─  omaestro174  ~/devOPs/azure cloud native WeatherApi   15:47:12
+╰─ ❯ dotnet build
+MSBUILD : error MSB1011: Especifique o arquivo de solução ou de projeto a usar porque esta pasta contém mais de um arquivo de solução ou de projeto.
+[exit=1]
+╭─  omaestro174  ~/devOPs/azure cloud native WeatherApi   15:47:17
+╰─ ❯ dotnet build WeatherApi.csproj
+Restauração concluída (0,3s)
+  WeatherApi êxito (0,2s) → bin/Debug/net8.0/WeatherApi.dll
+
+Construir êxito em 0,9s
+╭─  omaestro174  ~/devOPs/azure cloud native WeatherApi   15:47:49
+╰─ ❯ az webapp up  --name weather-api-jan-dev --resource-group DIO-CloudNative --runtime "dotnet:8" --location centralus
+Webapp 'weather-api-jan-dev' already exists. The command will deploy contents to the existing app.
+Creating AppServicePlan 'omaestro174_asp_2989' or Updating if already exists
+Creating zip with contents of dir /home/omaestro174/devOPs/azure cloud native WeatherApi ...
+Getting scm site credentials for zip deployment
+Starting zip deployment. This operation can take a while to complete ...
+Deployment endpoint responded with status code 202
+Polling the status of async deployment. Start Time: 2025-04-14 19:49:53.295011+00:00 UTC
+You can launch the app at http://weather-api-jan-dev.azurewebsites.net
+Setting 'az webapp up' default arguments for current directory. Manage defaults with 'az configure --scope local'
+--resource-group/-g default: DIO-CloudNative
+--sku default: F1
+--plan/-p default: omaestro174_asp_2989
+--location/-l default: centralus
+--name/-n default: weather-api-jan-dev
+{
+  "URL": "http://weather-api-jan-dev.azurewebsites.net",
+  "appserviceplan": "omaestro174_asp_2989",
+  "location": "centralus",
+  "name": "weather-api-jan-dev",
+  "os": "Windows",
+  "resourcegroup": "DIO-CloudNative",
+  "runtime_version": "dotnet|8",
+  "runtime_version_detected": "-",
+  "sku": "FREE",
+  "src_path": "//home//omaestro174//devOPs//azure cloud native WeatherApi"
+}
